@@ -1,20 +1,16 @@
-README for JNlua
 
-For information about JNLua, please visit http://code.google.com/p/jnlua/.
-
-
-* Release 1.0.5
+### Release 1.0.5 ###
 
 - Corrected an issue where an array access error message would fail to format.
 
 
-* Release 1.0.4 (2013-07-28)
+### Release 1.0.4 (2013-07-28) ###
 
 - Corrected an issue where method dispatch would enter an endless loop on
 non-public superclasses.
 
 
-* Release 1.0.3 (2012-10-09)
+### Release 1.0.3 (2012-10-09) ###
 
 - Added transparent conversion between Lua strings and Java byte arrays.
 This may break existing code that passes byte arrays between Java and Lua.
@@ -25,7 +21,7 @@ methods found on non-public classes with public superclasses. Thanks
 Ignazio Di Napoli for the analysis.
 
  
-* Release 1.0.2 (2012-01-29)
+### Release 1.0.2 (2012-01-29) ###
 
 - Added toIntegerX and toNumberX methods to LuaState.
 
@@ -46,7 +42,7 @@ Java exception string is now included in the error message.
 - Refactored the error handling in the JNLua native library.
 
 
-* Release 1.0.1 (2012-01-12)
+### Release 1.0.1 (2012-01-12) ###
 
 - Added a javavm module, allowing to create a Java VM from Lua.
 
@@ -62,7 +58,7 @@ errors, leading to uncontrolled transitions between Java code and native code.
 lua_tojavafunction function.
 
 
-* Release 1.0.0 (2012-01-05)
+### Release 1.0.0 (2012-01-05) ###
 
 - Adapted to Lua 5.2.
 
@@ -134,7 +130,7 @@ non-valid stack indexes.
 a null value to be set.
 
 
-* Release 0.9.1 Beta (2010-04-05)
+### Release 0.9.1 Beta (2010-04-05) ###
 
 - Added NativeSupport for more explicit control over the native library
 loading process.
@@ -142,6 +138,6 @@ loading process.
 - Migrated build system to Maven.
  
 
-* Release 0.9.0 Beta (2008-10-27)
+### Release 0.9.0 Beta (2008-10-27) ###
   
 - Initial public release.
